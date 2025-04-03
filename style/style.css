@@ -62,7 +62,9 @@ a {
   list-style: none;
   align-items: center;
 }
-
+.nav-links li {
+  margin-bottom: 10px;
+}
 .nav-links a {
   margin: 0 25px;
   position: relative;
@@ -213,9 +215,14 @@ a {
   background-position: left;
   padding: 150px 20px 50px;
 }
+.download-button {
+  text-align: end;
+  margin: 0 5px;
+}
 
 .aboutbox {
-  position: relative; 
+  display: flex;
+  flex-direction: column;
   width: 80%;
   max-width: 1200px;
   padding: 5.5%;
@@ -244,11 +251,7 @@ a {
   margin-bottom: 40px;
 }
 
-.download-button {
-  position: absolute; 
-  right: 5.5%; 
-  bottom: 40px; 
-}
+
 
 
 .circle-button {
