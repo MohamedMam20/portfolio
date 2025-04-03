@@ -781,6 +781,10 @@ footer {
     flex-direction: column;
   }
   
+  .nav-links li {
+    margin-bottom: 12px; 
+  }
+
   .nav-links a {
     margin: 5px 0;
     font-size: 0.9rem;
