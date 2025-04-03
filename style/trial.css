@@ -36,7 +36,7 @@ a {
 .home {
   display: flex;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('imgs/background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../imgs/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -206,7 +206,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #15161A;
-  background-image: url(imgs/About.png);
+  background-image: url(../imgs/About.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -414,7 +414,7 @@ h2 {
   align-items: center;
   justify-content: space-between;
   background-color: #15161A;
-  background-image: url(imgs/About.png);
+  background-image: url(../imgs/About.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
