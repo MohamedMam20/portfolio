@@ -10,7 +10,7 @@ html {
 }
 
 :root {
-  --background-color: rgba(0, 0, 0, 0.65);
+  --background-color: rgba(1, 29, 51, 0.5);
 }
 
 body {
@@ -36,7 +36,7 @@ a {
 .home {
   display: flex;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../imgs/background.jpg');
+  background-image: url('../imgs/background.avif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -207,7 +207,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #15161A;
+  background-color: #000C1C;
   background-image: url(../imgs/About.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -290,7 +290,7 @@ a {
   width: 100%;
   height: auto;
   min-height: 100vh;
-  background-color: #15161A;
+  background-color: #000C1C;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -381,7 +381,7 @@ a {
   height: auto;
   min-height: 100vh;
   padding: 50px 90px;
-  background-color: #15161A;
+  background-color: #000C1C;
 }
 
 h2 {
@@ -416,7 +416,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: #15161A;
+  background-color: #000C1C;
   background-image: url(../imgs/About.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -510,7 +510,7 @@ input[type="submit"]:hover {
 
 footer {
   width: 100%;
-  background-color: #2C2D30;
+  background-color: #192432;
   color: #fff;
   padding: 20px 0;
   text-align: center;
